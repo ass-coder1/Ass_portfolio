@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(../public/fonts/OpenSans/OpenSans-Regular.ttf);
+  font-weight: 400;
+
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(../public/fonts/OpenSans/OpenSans-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(../public/fonts/OpenSans/OpenSans-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Italic';
+  src: url(../public/fonts/OpenSans/OpenSans-Italic.ttf);
+  font-weight: 400;
+}
+
+
+@font-face {
+  font-family: 'Fasthand';
+  src: url(../public/fonts/Fasthand/Fasthand-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Snippet';
+  src: url(../public/fonts/Snippet/Snippet-Regular.ttf);
+  font-weight: 400;
+}
+
+
+
+
+
+:root {
+  --nav_color:  rgba(2, 6, 64, 0.681);
+  --bg-color:  rgba(7, 12, 79, 0.500);
+  --white: #ffff;
+  --black: #0000;
+  --silver: rgba(246, 246, 246, 0.838);
+  --gray: rgba(56, 41, 41, 0.66);
+  --blue: rgb(19, 19, 111);
+  --Snippet: 'Snippet';
+  --F_hand: 'Fasthand';
+  --O_sans: 'OpenSans';
+  --Italic: 'Italic';
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: url(../src/image/back2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: var(--O_sans);
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.title {
+  color: var(--silver);
+  font-size: 34px;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0 20px;
+}
+
+.navbar__logo {
+  font-size: 50px;
+  font-family: var(--O_Sans);
+  font-weight: 400;
+  color: burlywood;
+  transition: 1.5s;
+}
+
+.navbar__logo span {
+  font-size: 55px;
+  font-family: var(--Snippet);
+  color: var(--silver);
+  font-weight: 600;
+}
